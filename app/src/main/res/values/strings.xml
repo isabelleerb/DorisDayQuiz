@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">How Well Do You Know Doris Day?</string>
+
+    <!-- Header text for quiz -->
+    <string name="title">How Well Do You Know Doris?</string>
+
+    <!-- Question 1 of quiz -->
+    <string name="question_1">1. What Is Doris Day Known For?</string>
+
+    <!-- First option for question 1 -->
+    <string name="acting">Acting</string>
+
+    <!-- Second option for question 1 -->
+    <string name="singing">Singing</string>
+
+    <!-- Third option for question 1 -->
+    <string name="dancing">Dancing</string>
+
+    <!-- Question 2 of quiz -->
+    <string name="question_2">2. Which film did she star in?</string>
+
+    <!-- First option for question 2 -->
+    <string name="film_1">The Man Who Knew Too Much</string>
+
+    <!-- Second option for question 2 -->
+    <string name="film_2">Psycho</string>
+
+    <!-- Third option for question 2 -->
+    <string name="film_3">North by Northwest</string>
+
+</resources>
