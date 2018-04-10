@@ -28,4 +28,37 @@
     <!-- Third option for question 2 -->
     <string name="film_3">North by Northwest</string>
 
+    <!-- Question 3 of quiz -->
+    <string name="question_3">3. What is Doris Day\'s real name?</string>
+
+    <!-- First option for question 3 -->
+    <string name="name_1">Doris Day</string>
+
+    <!-- Second option for question 3 -->
+    <string name="name_2">Ellen Wagstaff Arden</string>
+
+    <!-- Third option for question 3 -->
+    <string name="name_3">Doris Mary Ann Kappelhoff</string>
+
+    <!-- Question 4 of quiz -->
+    <string name="question_4">4. What song did she make famous?</string>
+
+    <!-- First option for question 4 -->
+    <string name="song_1">White Christmas</string>
+
+    <!-- Second option for question 4 -->
+    <string name="song_2">Steppin\' Out with My Baby</string>
+
+    <!-- Third option for question 4 -->
+    <string name="song_3">Que Sera, Sera</string>
+
+    <!-- Question 5 of quiz -->
+    <string name="question_5">5. Doris Day was born on April 3rd, 1922. How old did she turn in 2018?</string>
+
+    <!-- Hint text displayed in the empty field for the user's answer to question 5 -->
+    <string name="age">Age</string>
+
+    <!-- Submit button that will trigger user's quiz score -->
+    <string name="submit">Submit</string>
+
 </resources>

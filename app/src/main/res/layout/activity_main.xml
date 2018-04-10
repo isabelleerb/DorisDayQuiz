@@ -20,7 +20,7 @@
             android:fontFamily="cursive"
             android:gravity="center_horizontal"
             android:text="@string/title"
-            android:textColor="#212121"
+            android:textColor="#FFFFFF"
             android:textSize="26sp"
             android:textStyle="bold" />
 
@@ -50,7 +50,7 @@
                 android:layout_marginLeft="16dp"
                 android:fontFamily="cursive"
                 android:text="@string/question_1"
-                android:textColor="#212121"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -59,33 +59,33 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:text="@string/acting"
                 android:fontFamily="cursive"
-                android:textStyle="bold"
-                android:textColor="#212121"
-                android:textSize="20sp" />
+                android:text="@string/acting"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <CheckBox
                 android:id="@+id/singing_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:text="@string/singing"
                 android:fontFamily="cursive"
-                android:textStyle="bold"
-                android:textColor="#212121"
-                android:textSize="20sp" />
+                android:text="@string/singing"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
                 android:layout_marginLeft="16dp"
-                android:text="@string/dancing"
                 android:fontFamily="cursive"
-                android:textStyle="bold"
-                android:textColor="#212121"
-                android:textSize="20sp" />
+                android:text="@string/dancing"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -93,7 +93,7 @@
                 android:layout_marginLeft="16dp"
                 android:fontFamily="cursive"
                 android:text="@string/question_2"
-                android:textColor="#212121"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -109,39 +109,39 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="cursive"
                     android:text="@string/film_1"
-                    android:textColor="#212121"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
-                    android:textStyle="bold|italic" />
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="cursive"
                     android:text="@string/film_2"
-                    android:textColor="#212121"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
-                    android:textStyle="bold|italic" />
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="24dp"
-                    android:text="@string/film_3"
                     android:fontFamily="cursive"
-                    android:textColor="#212121"
+                    android:text="@string/film_3"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
-                    android:textStyle="bold|italic" />
+                    android:textStyle="bold" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:text="3. What is Doris Day's real name?"
                 android:fontFamily="cursive"
-                android:textStyle="bold"
-                android:textColor="#212121"
-                android:textSize="24sp" />
+                android:text="@string/question_3"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <RadioGroup
                 android:layout_width="fill_parent"
@@ -152,19 +152,17 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Doris Day"
                     android:fontFamily="cursive"
-                    android:textStyle="bold"
-                    android:textColor="#212121"
+                    android:text="@string/name_1"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ellen Wagstaff Arden"
                     android:fontFamily="cursive"
-                    android:textStyle="bold"
-                    android:textColor="#212121"
+                    android:text="@string/name_2"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <RadioButton
@@ -172,10 +170,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="24dp"
-                    android:text="Doris Mary Ann Kappelhoff"
                     android:fontFamily="cursive"
-                    android:textStyle="bold"
-                    android:textColor="#212121"
+                    android:text="@string/name_3"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
             </RadioGroup>
 
@@ -183,11 +180,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:text="4. What song did she make famous?"
                 android:fontFamily="cursive"
-                android:textStyle="bold"
-                android:textColor="#212121"
-                android:textSize="24sp" />
+                android:text="@string/question_4"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <RadioGroup
                 android:layout_width="fill_parent"
@@ -198,42 +195,42 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="White Christmas"
                     android:fontFamily="cursive"
-                    android:textStyle="bold"
-                    android:textColor="#212121"
-                    android:textSize="20sp" />
+                    android:text="@string/song_1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Steppin' Out with My Baby"
                     android:fontFamily="cursive"
-                    android:textStyle="bold"
-                    android:textColor="#212121"
-                    android:textSize="20sp" />
+                    android:text="@string/song_2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <RadioButton
                     android:id="@+id/song_radiobutton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="24dp"
-                    android:text="Que Sera, Sera"
                     android:fontFamily="cursive"
-                    android:textStyle="bold"
-                    android:textColor="#212121"
-                    android:textSize="20sp" />
+                    android:text="@string/song_3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:text="5. Doris Day was born on April 3rd, 1922. How old did she turn in 2018?"
                 android:fontFamily="cursive"
-                android:textStyle="bold"
-                android:textColor="#212121"
-                android:textSize="24sp" />
+                android:text="@string/question_5"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/age_field"
@@ -242,22 +239,22 @@
                 android:layout_marginBottom="24dp"
                 android:layout_marginLeft="16dp"
                 android:ems="3"
-                android:hint="Age"
                 android:fontFamily="cursive"
-                android:textStyle="bold"
-                android:textSize="20sp"
+                android:hint="@string/age"
                 android:inputType="textCapWords"
-                android:textColor="#212121" />
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="24dp"
-                android:onClick="submitAnswers"
                 android:fontFamily="cursive"
-                android:textStyle="bold"
-                android:text="Submit" />
+                android:onClick="submitAnswers"
+                android:text="@string/submit"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </ScrollView>
