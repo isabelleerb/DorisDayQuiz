@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         boolean yesActing = actingCheckBox.isChecked();
         boolean yesSinging = singingCheckBox.isChecked();
         boolean yesFilm = filmRadioButton.isChecked();
-        boolean yesName = filmRadioButton.isChecked();
+        boolean yesName = nameRadioButton.isChecked();
         boolean yesSong = songRadioButton.isChecked();
         String age = ageField.getText().toString();
 
