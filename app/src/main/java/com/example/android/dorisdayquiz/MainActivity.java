@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         String age = ageField.getText().toString();
 
 
-        //Add one point to user score for every correct answer
+        //Add one point to user score for every correct answer.
         if (yesActing)
             score += 1;
 
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         if (age.equals("96"))
             score += 1;
 
-        //Add background highlight for every correct answer
+        //Add background highlight for every correct answer.
         doris_day_before.setImageResource(R.drawable.doris_day_after);
         actingCheckBox.setBackgroundColor(getResources().getColor(R.color.colorAccent));
         singingCheckBox.setBackgroundColor(getResources().getColor(R.color.colorAccent));
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         nameRadioButton.setBackgroundColor(getResources().getColor(R.color.colorAccent));
         songRadioButton.setBackgroundColor(getResources().getColor(R.color.colorAccent));
 
-        //Show the user's score as a toast
+        //Show the user's score as a toast.
         Toast.makeText(this, "You got " + score + "/6 correct!", Toast.LENGTH_LONG).show();
     }
 }
