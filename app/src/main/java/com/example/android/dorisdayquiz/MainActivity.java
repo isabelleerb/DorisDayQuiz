@@ -4,6 +4,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         RadioButton nameRadioButton = findViewById(R.id.name_radiobutton);
         RadioButton songRadioButton = findViewById(R.id.song_radiobutton);
         EditText ageField = findViewById(R.id.age_field);
+        Button submitButton = findViewById(R.id.submit_answers);
 
         /**
          * Check for correct answers.
@@ -86,5 +88,8 @@ public class MainActivity extends AppCompatActivity {
 
         //Show the user's score as a toast.
         Toast.makeText(this, "You got " + score + "/6 correct!", Toast.LENGTH_LONG).show();
+
+        //Disables button after selected once.  
+        submitButton.setEnabled(false);
     }
 }
